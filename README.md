@@ -1,2 +1,0 @@
-# biyojen.github.io
-Biyojen
