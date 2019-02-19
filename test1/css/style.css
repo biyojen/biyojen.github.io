@@ -10,13 +10,13 @@ body {
 }
 
 .wrapper {
-  height: 350px;
-  width: 700px;
-  margin: 40px auto;
+  height: 90vw;
+  width: 90vw;
+  margin: 3vw auto;
 }
 
 .quiz-box {
-    height: 250%;
+    height: 140vw;
     border: 5px solid rgba(255, 255, 255, 1);
     background-color: #000;
     border-radius: 0px 10%;
@@ -33,15 +33,16 @@ body {
   text-align: center;
   padding: 10%;
   height: 80%;
-  margin-top: 250px;
+  margin-top: 10vw;
 }
 
 .name-box span {
   font-weight: 500;
-  font-size: 3em;
+  font-size: 10vw;
 }
 
 #name-input-box {
+  width: 60vw;
   height: 45px;
   padding: 0;
   margin-top: 20px;
@@ -75,18 +76,20 @@ button:disabled{
 }
 
 #name-submit-button {
-  margin-top: 30px;
+  margin-top: 10vw;
 }
 
 .quiz {
+  font-size: 4vw;
   height: 100%;
-  padding: 10px;
+  padding: 5px;
 }
 
 #question h2 {
+  font-size: 5vw;
   font-weight: 600;
-  padding: 20px;
-  margin-top: 200px;
+  padding: 5px;
+  margin-top: 5vw;
   white-space: pre-wrap;
 }
 
@@ -105,17 +108,17 @@ button:disabled{
 
 @-webkit-keyframes click-wave {
   0% {
-    height: 40px;
-    width: 40px;
+    height: 20px;
+    width: 20px;
     opacity: 0.35;
     position: relative;
     outline: none;
   }
   100% {
-    height: 200px;
-    width: 200px;
-    margin-left: -80px;
-    margin-top: -80px;
+    height: 100px;
+    width: 100px;
+    margin-left: -40px;
+    margin-top: -40px;
     opacity: 0;
     outline: none;
   }
@@ -123,17 +126,17 @@ button:disabled{
 
 @-moz-keyframes click-wave {
   0% {
-    height: 40px;
-    width: 40px;
+    height: 20px;
+    width: 20px;
     opacity: 0.35;
     position: relative;
     outline: none;
   }
   100% {
-    height: 200px;
-    width: 200px;
-    margin-left: -80px;
-    margin-top: -80px;
+    height: 100px;
+    width: 100px;
+    margin-left: -40px;
+    margin-top: -40px;
     opacity: 0;
     outline: none;
   }
@@ -141,17 +144,17 @@ button:disabled{
 
 @keyframes click-wave {
   0% {
-    height: 40px;
-    width: 40px;
+    height: 20px;
+    width: 20px;
     opacity: 0.35;
     position: relative;
     outline: none;
   }
   100% {
-    height: 200px;
-    width: 200px;
-    margin-left: -80px;
-    margin-top: -80px;
+    height: 100px;
+    width: 100px;
+    margin-left: -40px;
+    margin-top: -40px;
     opacity: 0;
     outline: none;
   }
@@ -167,8 +170,8 @@ button:disabled{
   right: 0;
   bottom: 0;
   left: 0;
-  height: 40px;
-  width: 40px;
+  height: 20px;
+  width: 20px;
   top: 13px;
   -webkit-transition: all 0.15s ease-out 0s;
   -moz-transition: all 0.15s ease-out 0s;
@@ -193,14 +196,14 @@ button:disabled{
 }
 
 .option-input:checked::before {
-  height: 40px;
-  width: 40px;
+  height: 20px;
+  width: 20px;
   position: absolute;
   content: '\2713';
   display: inline-block;
-  font-size: 26.66667px;
+  font-size: 20px;
   text-align: center;
-  line-height: 40px;
+  line-height: 20px;
 }
 
 .option-input:checked::after {
@@ -286,7 +289,7 @@ sup {
 #result{
   padding:10px;
   height:100%;
-  margin-top: 250px;
+  margin-top: 10vw;
 }
 #result .score-label h1{
   font-weight:600;
@@ -308,7 +311,7 @@ sup {
 }
 
 table, td, th {
-  padding:10px;
+  padding:5px;
 }
 table {
     border-collapse: collapse;
